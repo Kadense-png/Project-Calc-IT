@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Calculus in IT & My Growth & Final Reflection &mdash; I've Calc'd it, now I'm here.</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%AA%B6%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Styles.css">
+  </head>
+  <body>
+    <div class="cover">
+      <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About Me</a>
+        <a href="index.html#journey">My Journey</a>
+        <a href="Artifacts.html">Artifacts</a>
+        <a href="Final.html#calc-it">Calculus in IT</a>
+        <a href="Final.html#growth">My Growth</a>
+        <a href="Final.html#final">Final Reflection</a>
+      </nav>
+      <section class="leaf" id="calc-it">
+        <div class="wrap">
+          <h2>Calculus in IT &amp; Web Development</h2>
+          <p>Calculus stayed pretty theoretical for most of the semester, until I started noticing where it was already sitting inside things I build.</p>
+
+          <div class="connection">
+            <h3>Rate of Change &rarr; Performance Monitoring</h3>
+            <p>A derivative is just a rate of change, and that's exactly what a performance dashboard is tracking when it shows requests-per-second climbing or a server's response time trending upward. Reading that graph the way I'd read a derivative &mdash; is it increasing, decreasing, leveling off &mdash; makes it much easier to tell whether a spike is a real problem or normal traffic.</p>
+          </div>
+
+          <div class="connection">
+            <h3>The Chain Rule &rarr; Animation &amp; Easing Curves</h3>
+            <p>CSS transitions and JavaScript animation libraries are built on easing functions, which are themselves functions nested inside a timing function &mdash; the exact structure the chain rule is built to handle. Understanding how an inner function's rate of change affects the outer one helped me get why an "ease-in-out" curve feels different from "linear" instead of just picking one because it looked fine in a demo.</p>
+          </div>
+
+          <div class="connection">
+            <h3>Optimization &rarr; Resource Allocation &amp; Algorithm Efficiency</h3>
+            <p>Optimization problems &mdash; finding a maximum or minimum given some constraint &mdash; are the same shape as decisions I already make when building something: how to get the most performance out of a limited amount of memory, or the shortest load time given a fixed number of assets. Even without formally setting up a derivative for it, the mindset of "what am I maximizing, what am I constrained by" carries over directly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="leaf" id="growth">
+        <div class="wrap">
+          <h2>My Growth in Calculus</h2>
+          <p>The clearest evidence of growth in this portfolio is the gap between my limits activity, where I scored 16 out of 25 and made an arithmetic error I didn't catch on my own, and the chain rule and product/quotient rule activities near the end of the term, where I scored 20 out of 20 and 45 out of 45. Limits were difficult for a specific reason: I hadn't yet built the habit of checking whether an answer made sense before writing it in the box, so a rationalizing mistake went uncaught all the way to the end of the problem. By the time I reached the product and quotient rule work, I had picked up a concrete strategy for that same kind of multi-step problem &mdash; naming u and v (or the inner and outer function) before touching the formula, and writing out each derivative piece separately before combining them. That single change in approach is the difference between the two scores, more than any difference in raw difficulty between the topics. The midterm exam also played a role: losing points there for mislabeling a higher-order derivative made me start labeling every intermediate result explicitly, which is a habit that shows up clearly in the chain rule activity that followed it. What changed, overall, wasn't that the later topics were easier &mdash; the chain rule is objectively more involved than basic limits &mdash; it's that I stopped trying to hold every step in my head and started writing structure down first, which is a habit I now use for debugging code just as much as I use it for derivatives.</p>
+        </div>
+      </section>
+
+      <section class="leaf" id="final">
+        <div class="wrap">
+          <h2>Final Reflection</h2>
+          <p>Going into 2CALC-IT, I expected a semester of memorizing formulas and forgetting them right after the exam. What actually happened was closer to learning a new debugging process: every topic in this course, from limits to the chain rule, turned out to reward the same instinct &mdash; break the problem into smaller named pieces, work through them one at a time, and check the result against something you already trust.</p>
+          <p>Limits were the most challenging topic for me, and my second activity is the clearest evidence of that: a 16 out of 25 where the actual algebra was mostly right but I made a rationalizing error I had no way to catch, because I hadn't yet developed a habit of verifying an answer before committing to it. Ironically, that early struggle is what made everything after it easier. Once I built the habit of double-checking distributed negative signs and sanity-checking limit answers by substituting nearby values, that same discipline carried straight into differentiation, where I went on to score 20 out of 20 on basic differentiation rules, 45 out of 45 on product and quotient rules, and 20 out of 20 on the chain rule.</p>
+          <p>The topic I understood best by the end was the chain rule, mostly because it's where every earlier skill had to work together at once &mdash; recognizing an inner and outer function, applying the power rule correctly to each layer, and keeping track of what multiplies what. Getting comfortable with that made me realize my problem-solving had changed in a specific way: I stopped trying to solve a problem in my head from start to finish and started writing down structure first &mdash; naming u and v, labeling which derivative order I was on, boxing intermediate results &mdash; before doing any actual computation. That's a mathematical habit, but it's also just a better habit for any complex task, including the coding work I actually want to build a career around.</p>
+          <p>My mistakes were, honestly, the most useful part of the course. Losing points on the midterm for mislabeling a higher-order derivative is a small, almost embarrassing error, but it's the exact reason I started labeling every step from then on, and that single change is visible in every artifact I completed afterward. My attitude toward Calculus shifted alongside that: it stopped feeling like an obstacle between me and my actual major and started feeling like a second language for describing change, growth, and optimization &mdash; three things that show up constantly in web development, whether I'm animating a transition, reading a performance graph, or deciding how to allocate a limited number of API calls.</p>
+          <p>What I still need to improve is speed under exam conditions; my written work is generally correct, but my exam scores lag behind my activity scores, which tells me I need more timed practice rather than more conceptual review. Going forward, into more advanced coursework and eventually into professional work, I want to carry over the specific habit this semester taught me: write the structure of a hard problem down before trying to solve it, whether that problem is a derivative or a bug.</p>
+        </div>
+      </section>
+
+      <footer>
+        <div class="credits">I've Calc'd it, now I'm here.</div>
+        Geremy Laurence D. Sanchez &middot; ICT-WebDev, 2nd Year &middot; 2CALC-IT &middot; Instructor Jonathan Mallari<br>
+        First Semester, Finals &middot; Holy Angel University, School of Arts and Sciences
+      </footer>
+    </div>
+  </body>
+</html>
