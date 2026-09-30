@@ -130,6 +130,14 @@
         color: var(--ink);
       }
 
+      .mini-section-heading {
+        font-size: clamp(1.35rem, 3vw, 1.7rem);
+        margin: 8px 0 12px;
+        padding-top: 34px;
+        border-top: 2px dotted var(--gold);
+        color: var(--wax-dark);
+      }
+
       h3 {
         font-size: 1.35rem;
         margin: 0 0 4px;
@@ -246,6 +254,15 @@
         transform: rotate(-1deg);
       }
 
+      .page-video {
+        max-width: 100%;
+        width: 420px;
+        border: 8px solid #fff;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+        background: #000;
+        display: block;
+      }
+
       .gallery .page-photo:nth-child(2) { transform: rotate(1.2deg); }
 
       .gallery .page-photo:nth-child(3) { transform: rotate(-0.6deg); }
@@ -301,4 +318,5 @@
         .facts li { flex-direction: column; gap: 2px; }
         .facts b { min-width: auto; }
         .page-photo { width: 100%; }
+        .page-video { width: 100%; }
       }
