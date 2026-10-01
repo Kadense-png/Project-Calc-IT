@@ -1,8 +1,0 @@
-Put your actual video file here and name it exactly:
-
-    calculusInfographic.mp4
-
-The Artifacts.html page already points to video/calculusInfographic.mp4,
-so once this file is dropped into this folder (replacing this text file
-if you like), the embedded player on the Additional Projects section
-will just work. Delete this .txt file once the real video is in place.
